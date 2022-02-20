@@ -1,11 +1,18 @@
 import { useState } from "react";
+import "../static/global.css";
 
-import Modal from "./Modal";
-import Backdrop from "./Backdrop";
+import ModalView from "./ModalView";
+
+import "bootstrap/dist/css/bootstrap.min.css"
+
+
+import { Button } from 'react-bootstrap';
 
 
 function Todo(props) {
   const [ modalIsOpen, setModalIsOpen] = useState(false);
+
+
 
 
   function deleteHandler() {
@@ -18,13 +25,12 @@ function Todo(props) {
   }
 
   return (
-    <div className="card">
+    <div >
       <h2>{props.text}</h2>
       <div className="actions">
-        <button className="btn" onClick={deleteHandler}>delete</button>
+        <Button variant="secondary" onClick={deleteHandler}>delete</Button>
       </div>
-      {modalIsOpen && <Modal closeModal={closeModal}/> }
-      {modalIsOpen && <Backdrop/> }
+      <ModalView show={modalIsOpen} onHide={closeModal}/>
     </div>
   );
 }
