@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 
 //import Todo from "./components/Todo";
-import AllMeetupsPage from "./pages/AllMeetups";
-import NewMeetupsPage from "./pages/NewMeetup";
-import Favourites from "./pages/Favourites";
+import AllMeetupsPage from "./pages/AllMeetupsPage";
+import NewMeetupsPage from "./pages/NewMeetupPage";
+import Favourites from "./pages/FavouritesPage";
 import MainNav from "./components/layout/MainNav";
 
 function App() {

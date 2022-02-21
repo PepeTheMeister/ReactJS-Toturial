@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function mainNav() {
   return (
-    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-danger">
       <a className="text-light navbar-brand ms-5">My Meetups</a>
       <div className="container-fluid">
         <div
