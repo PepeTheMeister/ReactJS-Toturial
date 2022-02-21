@@ -3,9 +3,6 @@ import "../static/global.css";
 
 import ModalView from "./ModalView";
 
-import "bootstrap/dist/css/bootstrap.min.css"
-
-
 import { Button } from 'react-bootstrap';
 
 

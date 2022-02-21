@@ -9,7 +9,7 @@ function ModalView(props) {
       centered
       animation={true}
     >
-      <Modal.Header closeButton onClick={props.onHide}>
+      <Modal.Header closeButton >
         <Modal.Title id="contained-modal-title-vcenter">
           Modal heading
         </Modal.Title>
