@@ -2,7 +2,7 @@ import MeetupItem from "./MeetupItem";
 
 function MeetupList(props){
 
-    return <ul>
+    return <ul className="">
         {props.meetups.map(meetup => <MeetupItem key={meetup.id} 
         id = {meetup.id} 
         adress = {meetup.adress} 

@@ -26,7 +26,7 @@ function NewMeetupForm(props) {
   return (
     <div className="d-flex justify-content-center align-items-center">
       <form
-        className="w-25 p-3 bg-body bg-gradient shadow-lg rounded m-3 "
+        className="w-25 p-3 bg-body bg-gradient shadow-lg rounded m-3"
         onSubmit={submitHandler}
       >
         <div className="mb-3 align-items-center">

@@ -25,7 +25,7 @@ function NewMeetupPage() {
   }
 
   return (
-    <div>
+    <div className='mt-2'>
       <h1 className="text-center">NewMeetupPage</h1>
       <NewMeetupForm onAddMeetup={addMeetupHandler} />
     </div>
